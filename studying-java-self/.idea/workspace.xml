@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat: 新增单例模式类和测试类&#10;新增SingleCase单例模式类及TestFuncTest测试类" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ealsen&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ealsen/studying-java-self.git&quot;,
+    &quot;accountId&quot;: &quot;7a37295b-aa6b-4781-b440-9120ad23e703&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\Development\phpstudy_pro\Extensions\php\php7.3.4nts\php.exe" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2skSpGpadTPYswVSzpsRZwdq6AY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/myDocumentDirections/codeDirections/java-studying-pro&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Main" />
+      <module name="studying-java-self" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="" />
+      <created>1738998260359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738998260359</updated>
+      <workItem from="1738998261357" duration="3564000" />
+      <workItem from="1739004486659" duration="362000" />
+      <workItem from="1739004851390" duration="59000" />
+      <workItem from="1739004929563" duration="459000" />
+      <workItem from="1739005394755" duration="157000" />
+      <workItem from="1739005557930" duration="6375000" />
+      <workItem from="1739012619709" duration="3083000" />
+      <workItem from="1739015711537" duration="14066000" />
+      <workItem from="1739082172416" duration="6435000" />
+      <workItem from="1739101650131" duration="10509000" />
+      <workItem from="1739271352366" duration="246000" />
+      <workItem from="1739355635178" duration="1974000" />
+      <workItem from="1739359151302" duration="45000" />
+      <workItem from="1739359206083" duration="789000" />
+      <workItem from="1739360084456" duration="2321000" />
+      <workItem from="1739367487696" duration="2027000" />
+      <workItem from="1739687829269" duration="576000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 添加基本项目结构和功能方法">
+      <option name="closed" value="true" />
+      <created>1738999879176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738999879176</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docs: 添加README文件和更新.gitignore">
+      <option name="closed" value="true" />
+      <created>1739000331956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739000331956</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(core): 添加基本数学运算功能并启用回文测试">
+      <option name="closed" value="true" />
+      <created>1739001057276</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739001057276</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge branch 'main' of https://github.com/Ealsen/studying-java-self">
+      <option name="closed" value="true" />
+      <created>1739013680043</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739013680043</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor: 将Person类的成员变量设为私有并添加setNameLimited方法">
+      <option name="closed" value="true" />
+      <created>1739074849846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739074849846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor(core): 删除多余方法并添加注释">
+      <option name="closed" value="true" />
+      <created>1739074919125</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739074919125</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: 新增单例模式类和测试类&#10;新增SingleCase单例模式类及TestFuncTest测试类">
+      <option name="closed" value="true" />
+      <created>1739074941023</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739074941023</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="feat: 添加基本项目结构和功能方法" />
+    <MESSAGE value="docs: 添加README文件和更新.gitignore" />
+    <MESSAGE value="feat(core): 添加基本数学运算功能并启用回文测试" />
+    <MESSAGE value="Merge branch 'main' of https://github.com/Ealsen/studying-java-self" />
+    <MESSAGE value="refactor: 将Person类的成员变量设为私有并添加setNameLimited方法" />
+    <MESSAGE value="        // 设置实例" />
+    <MESSAGE value="refactor(core): 删除多余方法并添加注释" />
+    <MESSAGE value="feat: 新增单例模式类和测试类&#10;新增SingleCase单例模式类及TestFuncTest测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增单例模式类和测试类&#10;新增SingleCase单例模式类及TestFuncTest测试类" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="testFuncNoneNameNo1(a-1)" language="JAVA" />
+        <watch expression="a" language="JAVA" />
+        <watch expression="meNo1(a - 1) " />
+        <watch expression="a-1" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
