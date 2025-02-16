@@ -2,6 +2,7 @@ package com.test.entity;
 
 public class Student extends Person implements study,play{
     String name;
+    private Status status;
 
     public Student() {}
 
@@ -14,6 +15,14 @@ public class Student extends Person implements study,play{
     }
     public void play() {
         System.out.println("Student playing.");
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 
     // @Override

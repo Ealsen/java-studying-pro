@@ -26,7 +26,6 @@ public class Main {
         // testClassDemoTest1wews();
         // personTestLimitedowjdo();
         // testTestttsxs();
-
         // TestFuncTest.testTestttsxs();
         // TestFuncTest.teststdwokSS();
         // TestFuncTest.testStudentSuperWWSssad();
@@ -34,7 +33,7 @@ public class Main {
         // TestFuncTest.testTestTodWswswswsws();
         // TestFuncTest.testInterfaceTestWid();
         // TestFuncTest.TestCloneableTest();
-
+        TestFuncTest.testStuEnum1();
 
         System.out.println("\nGoodbye world!");
     }

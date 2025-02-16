@@ -121,6 +121,14 @@ public class TestFuncTest {
         System.out.println(cl.equals(cl2));
     }
 
+    public static void testStuEnum1() {
+        Student stu = new Student();
+        // 给枚举的属性赋值
+        // stu.setStatus(Status.valueOf("xxx")); // 字符串xxx 不存在，所以会抛出异常
+        stu.setStatus(Status.RUNNING);
+        System.out.println(stu.getStatus().getName());
+    }
+
     /*
     访问权限修饰符（Access Modifier）
     访问权限修饰符用来控制对类、属性、方法的访问权限。Java共有四种访问权限修饰符：public、protected、default（缺省）、private。
