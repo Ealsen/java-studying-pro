@@ -7,6 +7,8 @@ package com.test.entity;
  */
 
 // 静态导入
+import java.math.BigInteger;
+
 import static com.test.entity.TestClassDemo1.printHelloString1;
 
 public class TestFuncTest {
@@ -127,6 +129,126 @@ public class TestFuncTest {
         // stu.setStatus(Status.valueOf("xxx")); // 字符串xxx 不存在，所以会抛出异常
         stu.setStatus(Status.RUNNING);
         System.out.println(stu.getStatus().getName());
+    }
+
+    public static void testObjAdvanced() {
+        // 基本类型包装类
+        // 装箱
+        Integer num_1 = new Integer(10);
+        Integer num_2 = 10;
+        // 拆箱
+        int num_3 = num_1;
+        int num_4 = num_2;
+
+        // 不同实列的
+        System.out.println(num_1 == num_2);  // false 不同实列
+
+        // 自动装箱
+        Integer num_5 = 10;
+        System.out.println(num_2 == num_5); // true 自动装箱
+
+        // 自动转换
+        String str = "123";
+        Integer num_6 = new Integer(str);
+        System.out.println(num_6);
+
+        Integer num_7 = Integer.decode("0xff"); // 十六进制 0xff 十进制 255
+        System.out.println(num_7);
+
+        System.out.println(Integer.toBinaryString(num_7)); // 二进制
+
+        System.out.println("0x" + Integer.toHexString(num_7));
+
+        // equals() 方法
+        System.out.println(num_1.equals(num_2));
+
+        // Integer 的 MAX VALUE 和 MIN VALUE
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+
+        // 类似Integer的还有 Long、Short、Byte、Double、Float、Character
+        // 包装类的值不能更改
+
+        // 特殊的包装类
+        Void v_test = null;
+        System.out.println(v_test);
+        BigInteger big_num_1 = BigInteger.valueOf(10);
+        BigInteger big_num_2 = big_num_1.add(BigInteger.TEN);
+        System.out.println(big_num_2);
+
+
+        // 数组
+        int[] arr_1 = new int[] {1, 2, 3, 4, 5, 6};
+        // print all arr elements
+        for (int j : arr_1) {
+            System.out.println(j);
+        }
+        int[][] arr_2 = { {1, 2},
+                {3, 4},
+                {5, 6}};   //一个三行两列的数组
+        System.out.println(arr_2[2][1]);   //访问第三行第二列的元素
+    }
+
+    // 可变长参数
+    public static void testVarArgs(int... args) {
+        for (int i : args) {
+            System.out.println(i);
+        }
+    }
+
+    public static void stringTestFunc() {
+        String str1 = "Hello world";
+        String[] str2 = str1.split(" ");
+        for (String i : str2) {
+            System.out.println(i);
+        }
+
+        StringBuilder str3 = new StringBuilder("Hello world");
+        str3.append("!");
+        System.out.println(str3.toString());
+        str3.replace(0, 5, "Hi");
+        System.out.println(str3.toString());
+        str3.append("!").append("!");
+        System.out.println(str3.toString());
+    }
+
+    // 正则表达式 判断163邮箱的格式
+    public static void testRegex(String str) {
+        String regex = "^[a-zA-Z0-9_-]+@163.com$";
+        boolean isMatch = str.matches(regex);
+        System.out.println(isMatch);
+    }
+
+    public static void testRegexFunc() {
+        String str = "abc@1631.com"; // false
+        testRegex(str);
+    }
+
+    public static void testInnerClass() {
+        TestInner testInner = new TestInner();
+        testInner.num = 10;
+        testInner.printNum();
+        TestInner.Inner inner = testInner.new Inner();
+        inner.num_inner = 20;
+        inner.printNum();
+    }
+
+    public static void testAbstractClass() {
+        // 匿名内部类
+        AbStudent abStudent = new AbStudent() {
+            @Override
+            public void printInfo() {
+                System.out.println("printInfo()");
+            }
+        };
+        abStudent.printInfo();
+    }
+
+    public static void testInterfaceLambda() {
+        study study = () -> {
+            System.out.println("study() start");
+        };
+        study.study();
     }
 
     /*

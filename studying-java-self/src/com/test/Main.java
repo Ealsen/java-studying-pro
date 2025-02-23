@@ -33,7 +33,14 @@ public class Main {
         // TestFuncTest.testTestTodWswswswsws();
         // TestFuncTest.testInterfaceTestWid();
         // TestFuncTest.TestCloneableTest();
-        TestFuncTest.testStuEnum1();
+        // TestFuncTest.testStuEnum1();
+        // TestFuncTest. testObjAdvanced();
+        // TestFuncTest.testVarArgs(1,2,3,4,5,6); // 测试可变参数
+        // TestFuncTest.stringTestFunc();
+        // TestFuncTest.testRegexFunc();
+        // TestFuncTest.testInnerClass();
+        // TestFuncTest.testAbstractClass();
+        TestFuncTest.testInterfaceLambda();
 
         System.out.println("\nGoodbye world!");
     }
