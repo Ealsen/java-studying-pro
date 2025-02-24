@@ -7,7 +7,10 @@ package com.test.entity;
  */
 
 // 静态导入
+import java.lang.reflect.Array;
 import java.math.BigInteger;
+import java.util.Arrays;
+import java.util.Random;
 
 import static com.test.entity.TestClassDemo1.printHelloString1;
 
@@ -198,12 +201,12 @@ public class TestFuncTest {
 
     public static void stringTestFunc() {
         String str1 = "Hello world";
-        String[] str2 = str1.split(" ");
+        String[] str2 = str1.split(" ");  // 切割字符串
         for (String i : str2) {
             System.out.println(i);
         }
 
-        StringBuilder str3 = new StringBuilder("Hello world");
+        StringBuilder str3 = new StringBuilder("Hello world"); // StringBuilder
         str3.append("!");
         System.out.println(str3.toString());
         str3.replace(0, 5, "Hi");
@@ -213,7 +216,7 @@ public class TestFuncTest {
     }
 
     // 正则表达式 判断163邮箱的格式
-    public static void testRegex(String str) {
+    public static void testRegex(String str) { // 正则表达式
         String regex = "^[a-zA-Z0-9_-]+@163.com$";
         boolean isMatch = str.matches(regex);
         System.out.println(isMatch);
@@ -225,10 +228,10 @@ public class TestFuncTest {
     }
 
     public static void testInnerClass() {
-        TestInner testInner = new TestInner();
+        TestInner testInner = new TestInner(); // 创建外部类
         testInner.num = 10;
         testInner.printNum();
-        TestInner.Inner inner = testInner.new Inner();
+        TestInner.Inner inner = testInner.new Inner(); // 创建内部类
         inner.num_inner = 20;
         inner.printNum();
     }
@@ -245,11 +248,72 @@ public class TestFuncTest {
     }
 
     public static void testInterfaceLambda() {
-        study study = () -> {
+        study study = () -> { // lambda 表达式
             System.out.println("study() start");
         };
         study.study();
     }
+
+    public static void testInterfaceTestFuncSum() {
+        // TestFuncSum testFuncSum = (a, b) -> {
+        //     System.out.println("TestFuncSum.TestFuncAdd()");
+        //     return a + b;
+        // };
+
+        TestFuncSum testFuncSum = Integer::sum; // 方法引用
+        System.out.println(testFuncSum.TestFuncAdd(10, 20));
+    }
+
+    // 抛出异常 除数不能为0
+    public static int testDivide(int a, int b) throws Exception {
+        if (b == 0) {
+            throw new Exception("除数不能为0");
+        }
+        return a / b;
+    }
+
+    // 测试 1/0
+    public static void testExceptionTestDivide() throws Exception {
+        testDivide(10, 0);
+    }
+
+    // 捕获异常 让程序正常运行
+    public static void testExceptionTestDivide2() {
+        try { // 手动的捕获异常
+            testDivide(10, 0);
+        } catch (Exception e) {
+            System.out.println("捕获异常：" + e.getMessage());
+        } finally { // 无异常 finally 语句 也会执行
+            System.out.println("finally");
+        }
+    }
+
+    // 断言表达式
+    public static void testAssert() {
+        int i = 110;
+        assert i == 10 : "断言表达式没有通过";
+        // System.out.println("断言表达式通过");
+    }
+
+    // math工具类
+    // 静态方法 Math.addExact(int a, int b) 等等
+
+    // random 工具类
+    public static void testRandom() {
+        Random random = new Random();
+        for (int i = 0; i < 10; i++) {
+            int num = random.nextInt(100);
+            System.out.println(num);
+        }
+    }
+
+    // Array 工具类
+    public static void testArray() {
+        int[] arr = { 3, 6, 7, 4, 5};
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
 
     /*
     访问权限修饰符（Access Modifier）

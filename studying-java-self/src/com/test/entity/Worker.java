@@ -1,5 +1,11 @@
 package com.test.entity;
 
+/**
+ * @author Ealsen
+ * @date 2025-02-05
+ * @ddescription Worker
+ */
+
 public class Worker extends Person implements working {
 
     public Worker() {}

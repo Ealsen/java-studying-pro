@@ -1,9 +1,10 @@
 package com.test;
+import com.test.entity.TestFuncSum;
 import com.test.entity.TestFuncTest;
 
 
 public class Main {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws Exception {
 
         // 输出欢迎信息
         System.out.println("Hello world!\n");
@@ -40,7 +41,13 @@ public class Main {
         // TestFuncTest.testRegexFunc();
         // TestFuncTest.testInnerClass();
         // TestFuncTest.testAbstractClass();
-        TestFuncTest.testInterfaceLambda();
+        // TestFuncTest.testInterfaceLambda();
+        // TestFuncTest.testInterfaceTestFuncSum();
+        // TestFuncTest.testExceptionTestDivide();
+        // TestFuncTest.testExceptionTestDivide2();
+        // TestFuncTest.testAssert();
+        // TestFuncTest.testRandom();
+        // TestFuncTest.testArray();
 
         System.out.println("\nGoodbye world!");
     }

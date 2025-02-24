@@ -1,5 +1,11 @@
 package com.test.entity;
 
+/**
+ * @author: Ealsen
+ * @date: 2025/02/02
+ * @description: 内部类等等
+ */
+
 public class TestInner {
     static {
         System.out.println("outer static");
