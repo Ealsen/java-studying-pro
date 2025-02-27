@@ -250,7 +250,7 @@ public class TestFuncTest {
     }
 
     public static void testInterfaceLambda() {
-        study study = () -> { // lambda 表达式
+        Study study = () -> { // lambda 表达式
             System.out.println("study() start");
         };
         study.study();
