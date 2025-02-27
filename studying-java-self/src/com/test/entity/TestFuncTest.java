@@ -315,6 +315,59 @@ public class TestFuncTest {
     }
 
 
+    // 冒泡排序
+    public static int[] bubbleSort(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            boolean flag = false;
+            for (int j = 0; j < array.length - 1 - i; j++) {
+                if (array[j] > array[j + 1]) {
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                    flag = true;
+                }
+            }
+            if (!flag) {
+                break;
+            }
+        }
+        return array;
+    }
+
+    // test 冒泡排序
+    public static void testBubbleSort() {
+        int[] arr = { 3, 6, 7, 4, 5};
+        int[] result = bubbleSort(arr);
+        System.out.println(Arrays.toString(result));
+    }
+
+    // binarySearch 二分查找
+    public static int binarySearch(int[] array, int target) {
+        int left = 0, right = array.length - 1;
+        int mid = (left + right) / 2;
+        while (left <= right) {
+            if (array[mid] == target) {
+                return mid;
+            } else if (array[mid] > target) {
+                right = mid - 1;
+            } else if (array[mid] < target) {
+                left = mid + 1;
+            }
+        }
+        return -1;
+    }
+
+    // test 冒泡排序 and binarySearch 二分查找
+    public static void testBinarySearch() {
+        int[] arr = { 3, 6, 7, 4, 5,2,3,4,5,6,7,8};
+        int[] result = bubbleSort(arr);
+        System.out.println(Arrays.toString(result));
+        int target = 5;
+        int result2 = binarySearch(result, target);
+        System.out.println(result2);
+    }
+
+
     /*
     访问权限修饰符（Access Modifier）
     访问权限修饰符用来控制对类、属性、方法的访问权限。Java共有四种访问权限修饰符：public、protected、default（缺省）、private。

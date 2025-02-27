@@ -48,6 +48,8 @@ public class Main {
         // TestFuncTest.testAssert();
         // TestFuncTest.testRandom();
         // TestFuncTest.testArray();
+        // TestFuncTest.testBubbleSort();
+        TestFuncTest.testBinarySearch();
 
         System.out.println("\nGoodbye world!");
     }

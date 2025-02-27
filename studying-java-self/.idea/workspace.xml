@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat(entity): 添加 TestFuncSum接口&#10;&#10;新增了 TestFuncSum 接口，该接口包含一个 TestFuncAdd 方法，用于实现两个整数的相加功能。" />
+    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat(entity): 添加 TestFuncSum接口&#10;&#10;新增了 TestFuncSum 接口，该接口包含一个 TestFuncAdd 方法，用于实现两个整数的相加功能。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/entity/TestFuncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/entity/TestFuncTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +72,7 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true",
     "应用程序.Main.executor": "Run"
   },
@@ -143,7 +148,9 @@
       <workItem from="1739688412436" duration="3914000" />
       <workItem from="1740214586304" duration="842000" />
       <workItem from="1740215436672" duration="18331000" />
-      <workItem from="1740377022251" duration="13111000" />
+      <workItem from="1740377022251" duration="15416000" />
+      <workItem from="1740570856877" duration="11000" />
+      <workItem from="1740626657924" duration="1843000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加基本项目结构和功能方法">
       <option name="closed" value="true" />
@@ -233,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740474569974</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="chore: 添加 .gitignore 文件并忽略 out 目录&#10;&#10;- 新建 .gitignore 文件，用于配置 Git 版本控制系统忽略指定">
+      <option name="closed" value="true" />
+      <created>1740474744771</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740474744771</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat(entity): 添加 TestFuncSum接口&#10;&#10;新增了 TestFuncSum 接口，该接口包含一个 TestFuncAdd 方法，用于实现两个整数的相加功能。">
+      <option name="closed" value="true" />
+      <created>1740474757929</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740474757929</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +289,7 @@
     <MESSAGE value="feat: 新增单例模式类和测试类&#10;&#10;- 新增 SingleCase 单例模式类及 TestFuncTest 测试类&#10;- 添加基本项目结构和功能方法&#10;- 更新 Main 类中的测试调用&#10;- 增加高级对象操作和数组示例" />
     <MESSAGE value="feat: 新增单例模式类和测试类&#10;&#10;- 新增 SingleCase 单例模式类及 TestFuncTest 测试类&#10;- 添加基本项目结构和功能方法&#10;- 更新 Main 类中的测试调用&#10;- 增加高级对象操作和数组示例 新增抽象类和内部类测试&#10;&#10;- 新增 AbStudent 抽象类和 TestInner 内部类&#10;- 在 TestFuncTest 中添加相关测试方法- 修改 Main 类中的测试调用" />
     <MESSAGE value="feat: 新增单例模式类和测试类&#10;&#10;- 新增 SingleCase 单例模式类及 TestFuncTest 测试类&#10;- 添加基本项目结构和功能方法&#10;- 更新 Main 类中的测试调用- 增加高级对象操作和数组示例&#10;- 新增抽象类和内部类测试&#10;- 新增 AbStudent 抽象类和 TestInner 内部类- 在 TestFuncTest 中添加相关测试方法&#10;- 修改 Main 类中的测试调用" />
+    <MESSAGE value="chore: 添加 .gitignore 文件并忽略 out 目录&#10;&#10;- 新建 .gitignore 文件，用于配置 Git 版本控制系统忽略指定" />
     <MESSAGE value="feat(entity): 添加 TestFuncSum接口&#10;&#10;新增了 TestFuncSum 接口，该接口包含一个 TestFuncAdd 方法，用于实现两个整数的相加功能。" />
     <option name="LAST_COMMIT_MESSAGE" value="feat(entity): 添加 TestFuncSum接口&#10;&#10;新增了 TestFuncSum 接口，该接口包含一个 TestFuncAdd 方法，用于实现两个整数的相加功能。" />
   </component>
