@@ -54,8 +54,8 @@ public class Main {
         // TestFuncTest.testClassScoreScore();
         // TestFuncTest.testGenericFunc();
         // TestFuncTest.testCompareO();
-        TsFunc.testArrayListClass();
-
+        // TsFunc.testArrayListClass();
+        TsFunc.testLinkedListClass();
 
         System.out.println("\nGoodbye world!");
     }
