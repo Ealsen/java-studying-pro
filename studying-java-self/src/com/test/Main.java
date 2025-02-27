@@ -1,5 +1,6 @@
-package com.entity.test;
+package com.test;
 import com.entity.TestFuncTest;
+import com.test.TsFunc;
 
 
 public class Main {
@@ -52,7 +53,9 @@ public class Main {
         // TestFuncTest.testClassScoreFanxing();
         // TestFuncTest.testClassScoreScore();
         // TestFuncTest.testGenericFunc();
-        TestFuncTest.testCompareO();
+        // TestFuncTest.testCompareO();
+        TsFunc.testArrayListClass();
+
 
         System.out.println("\nGoodbye world!");
     }

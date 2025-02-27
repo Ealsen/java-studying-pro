@@ -4,20 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat(entity">
+    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="refactor(entity): 修正接口名称&#10;&#10;- 将接口名 study改为 Study，以符合 Java接口命名规范&#10;- 接口名 Play 保持不变，因未提及修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/entity/StdCl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/entity/StdCl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/entity/TestFuncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/entity/TestFuncTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/entity/play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/entity/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/entity/study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/entity/Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/AbStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/ExA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/ExB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/MathFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/SingleCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/StdCl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestClassDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestFuncTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestInner$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/TestInner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/play.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/study.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/entity/working.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/entity/TestFuncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/entity/TestFuncTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/entity/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +108,12 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="com.entity" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.test.Main" />
@@ -159,7 +177,7 @@
       <workItem from="1740215436672" duration="18331000" />
       <workItem from="1740377022251" duration="15416000" />
       <workItem from="1740570856877" duration="11000" />
-      <workItem from="1740626657924" duration="7835000" />
+      <workItem from="1740626657924" duration="11987000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加基本项目结构和功能方法">
       <option name="closed" value="true" />
@@ -289,7 +307,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740632670939</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="refactor(entity): 重构实体类并添加新功能&#10;&#10;- 将 com.test.entity 包重命名为 com.entity&#10;- 更新了多个实体类和接口的包名&#10;- 在 TestFuncTest 类中添加了新的测试方法&#10;- 新增了 JieXian 类用于泛型界限测试&#10;- 优化了 Main 类中的测试调用">
+      <option name="closed" value="true" />
+      <created>1740634950228</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740634950228</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor(entity): 修正接口名首字母大写&#10;&#10;- 将 study study = () -&gt; { 修改为 Study study = () -&gt; {&#10;-优化代码格式，使接口名首字母大写，符合 Java">
+      <option name="closed" value="true" />
+      <created>1740634976260</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740634976260</updated>
+    </task>
+    <task id="LOCAL-00019" summary="refactor(entity): 修正接口名称&#10;&#10;- 将接口名 study改为 Study，以符合 Java接口命名规范&#10;- 接口名 Play 保持不变，因未提及修改">
+      <option name="closed" value="true" />
+      <created>1740634996056</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740634996056</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +368,10 @@
     <MESSAGE value="feat(entity): 添加 TestFuncSum接口&#10;&#10;新增了 TestFuncSum 接口，该接口包含一个 TestFuncAdd 方法，用于实现两个整数的相加功能。" />
     <MESSAGE value="feat(entity): 添加冒泡排序和二分查找功能&#10;&#10;- 新增冒泡排序（bubbleSort）方法，用于对整数数组进行排序&#10;- 新增二分查找（binarySearch）方法，用于在有序数组中查找目标值&#10;- 在 TestFuncTest 类中添加相应的测试方法&#10;- 更新 Main 类中的测试调用" />
     <MESSAGE value="feat(entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(entity" />
+    <MESSAGE value="refactor(entity): 重构实体类并添加新功能&#10;&#10;- 将 com.test.entity 包重命名为 com.entity&#10;- 更新了多个实体类和接口的包名&#10;- 在 TestFuncTest 类中添加了新的测试方法&#10;- 新增了 JieXian 类用于泛型界限测试&#10;- 优化了 Main 类中的测试调用" />
+    <MESSAGE value="refactor(entity): 修正接口名首字母大写&#10;&#10;- 将" />
+    <MESSAGE value="refactor(entity): 修正接口名称&#10;&#10;- 将接口名 study改为 Study，以符合 Java接口命名规范&#10;- 接口名 Play 保持不变，因未提及修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(entity): 修正接口名称&#10;&#10;- 将接口名 study改为 Study，以符合 Java接口命名规范&#10;- 接口名 Play 保持不变，因未提及修改" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

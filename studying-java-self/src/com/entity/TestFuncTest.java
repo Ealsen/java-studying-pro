@@ -424,6 +424,9 @@ public class TestFuncTest {
         JieXian<String,String> jieXian = new JieXian<>("张三","1001","90");
     }
 
+    // 类型擦除是 Java 泛型实现的一个核心机制，它在编译时移除泛型类型信息，
+    // 确保了泛型代码的兼容性和性能。了解类型擦除机制有助于更好地理解和使用 Java 泛型
+
     /*
     访问权限修饰符（Access Modifier）
     访问权限修饰符用来控制对类、属性、方法的访问权限。Java共有四种访问权限修饰符：public、protected、default（缺省）、private。
