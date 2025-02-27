@@ -1,6 +1,5 @@
-package com.test;
-import com.test.entity.TestFuncSum;
-import com.test.entity.TestFuncTest;
+package com.entity.test;
+import com.entity.TestFuncTest;
 
 
 public class Main {
@@ -50,8 +49,10 @@ public class Main {
         // TestFuncTest.testArray();
         // TestFuncTest.testBubbleSort();
         // TestFuncTest.testBinarySearch();
-        TestFuncTest.testClassScoreFanxing();
-        TestFuncTest.testClassScoreScore();
+        // TestFuncTest.testClassScoreFanxing();
+        // TestFuncTest.testClassScoreScore();
+        // TestFuncTest.testGenericFunc();
+        TestFuncTest.testCompareO();
 
         System.out.println("\nGoodbye world!");
     }

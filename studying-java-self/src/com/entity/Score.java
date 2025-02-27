@@ -1,4 +1,4 @@
-package com.test.entity;
+package com.entity;
 
 // 泛型
 public class Score<U,V,T> {

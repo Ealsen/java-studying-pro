@@ -1,4 +1,4 @@
-package com.test.entity;
+package com.entity;
 
 public interface ExA {
     public void methodA();

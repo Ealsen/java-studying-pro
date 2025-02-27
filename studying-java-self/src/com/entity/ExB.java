@@ -1,4 +1,4 @@
-package com.test.entity;
+package com.entity;
 
 public class ExB implements ExA { // implements ExA interface
     @Override

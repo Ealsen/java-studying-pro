@@ -1,6 +1,6 @@
-package com.test.entity;
+package com.entity;
 
-public class Student extends Person implements study,play{
+public class Student extends Person implements Study, Play {
     String name;
     private Status status;
 

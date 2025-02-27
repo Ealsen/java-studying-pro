@@ -1,4 +1,4 @@
-package com.test.entity;
+package com.entity;
 
 public  class Person { // Abstract class Person
     // 继承Abstract Class Person类的子类必须实现抽象方法examTest()

@@ -1,4 +1,4 @@
-package com.test.entity;
+package com.entity;
 
 /**
  * @author Ealsen
@@ -7,13 +7,14 @@ package com.test.entity;
  */
 
 // 静态导入
-import jdk.internal.org.objectweb.asm.tree.analysis.Value;
 
 import java.math.BigInteger;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Random;
+import java.util.stream.Stream;
 
-import static com.test.entity.TestClassDemo1.printHelloString1;
+import static com.entity.TestClassDemo1.printHelloString1;
 
 public class TestFuncTest {
 
@@ -380,7 +381,7 @@ public class TestFuncTest {
     public static class ScoreScore extends Score<String, String, Integer> {
         public void playForward(Integer Value) {
             if (Value > 90)
-                System.out.println("play very happy");
+                System.out.println("Play very happy");
         }
     }
 
@@ -389,9 +390,39 @@ public class TestFuncTest {
         score.playForward(100);
     }
 
+    // 泛型方法
+    public static <T> void testGenericFunc(T t) {
+        System.out.println(t);
+    }
 
+    // test 泛型方法
+    public static void testGenericFunc() {
+        testGenericFunc(10);
+        testGenericFunc("hello");
+    }
 
+    // compare
+    public static void testCompareO() {
+        Comparator<Integer> comparator = new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o2 - o1; // 降序
+            }
+        };
+        Integer[] arr = { 3, 6, 7, 4, 5};
+        Stream<Integer> array = Arrays.stream(arr).sorted(comparator);
+        System.out.println(Arrays.toString(array.toArray()));
 
+        // or
+        Integer[] arrary1= { 3, 6, 7, 4, 5};
+        Arrays.sort(arrary1, (o1,o2) -> o2-o1);
+        System.out.println(Arrays.toString(arrary1));
+    }
+
+    // 界限
+    public static void testJieXian() {
+        JieXian<String,String> jieXian = new JieXian<>("张三","1001","90");
+    }
 
     /*
     访问权限修饰符（Access Modifier）

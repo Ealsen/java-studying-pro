@@ -1,4 +1,4 @@
-package com.test.entity;
+package com.entity;
 
 public enum Status {
     RUNNING("跑步"),STUDYING("学习"),PLAYING("玩");

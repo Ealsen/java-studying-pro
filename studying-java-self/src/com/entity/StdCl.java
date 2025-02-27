@@ -1,6 +1,6 @@
-package com.test.entity;
+package com.entity;
 
-public class StdCl extends Student implements study,play,Cloneable {
+public class StdCl extends Student implements study, Play,Cloneable {
     public StdCl() {}
     public StdCl(String name, int age, String gender) {
         super(name, age, gender);
