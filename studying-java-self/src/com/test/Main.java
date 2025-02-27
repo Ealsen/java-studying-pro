@@ -49,7 +49,9 @@ public class Main {
         // TestFuncTest.testRandom();
         // TestFuncTest.testArray();
         // TestFuncTest.testBubbleSort();
-        TestFuncTest.testBinarySearch();
+        // TestFuncTest.testBinarySearch();
+        TestFuncTest.testClassScoreFanxing();
+        TestFuncTest.testClassScoreScore();
 
         System.out.println("\nGoodbye world!");
     }

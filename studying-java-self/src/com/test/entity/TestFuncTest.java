@@ -7,7 +7,8 @@ package com.test.entity;
  */
 
 // 静态导入
-import java.lang.reflect.Array;
+import jdk.internal.org.objectweb.asm.tree.analysis.Value;
+
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Random;
@@ -344,28 +345,52 @@ public class TestFuncTest {
     // binarySearch 二分查找
     public static int binarySearch(int[] array, int target) {
         int left = 0, right = array.length - 1;
-        int mid = (left + right) / 2;
         while (left <= right) {
-            if (array[mid] == target) {
+            int mid = left + (right - left) / 2;
+            int midValue = array[mid];
+            if (midValue == target) {
                 return mid;
-            } else if (array[mid] > target) {
+            } else if (midValue > target) {
                 right = mid - 1;
-            } else if (array[mid] < target) {
+            } else {
                 left = mid + 1;
             }
         }
         return -1;
     }
 
+
     // test 冒泡排序 and binarySearch 二分查找
     public static void testBinarySearch() {
         int[] arr = { 3, 6, 7, 4, 5,2,3,4,5,6,7,8};
         int[] result = bubbleSort(arr);
         System.out.println(Arrays.toString(result));
-        int target = 5;
+        int target = 8;
         int result2 = binarySearch(result, target);
         System.out.println(result2);
     }
+
+    public static void testClassScoreFanxing() {
+        Score<String,String,Integer> score = new Score<>("张三","1001", 90);
+        Score<String,String,String> score2 = new Score<>("李四","1002", "A");
+        System.out.println(score.name + " " + score.id + " " + score.value);
+        System.out.println(score2.name + " " + score2.id + " " + score2.value);
+    }
+
+    public static class ScoreScore extends Score<String, String, Integer> {
+        public void playForward(Integer Value) {
+            if (Value > 90)
+                System.out.println("play very happy");
+        }
+    }
+
+    public static void testClassScoreScore() {
+        ScoreScore score = new ScoreScore();
+        score.playForward(100);
+    }
+
+
+
 
 
     /*
