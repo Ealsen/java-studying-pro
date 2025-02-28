@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="refactor(entity): 修正接口名称&#10;&#10;- 将接口名 study改为 Study，以符合 Java接口命名规范&#10;- 接口名 Play 保持不变，因未提及修改">
+    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/collection/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collection/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/TsFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/TsFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,36 +54,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/myDocumentDirections/codeDirections/java-studying-pro",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/myDocumentDirections/codeDirections/java-studying-pro&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
@@ -157,7 +153,8 @@
       <workItem from="1740215436672" duration="18331000" />
       <workItem from="1740377022251" duration="15416000" />
       <workItem from="1740570856877" duration="11000" />
-      <workItem from="1740626657924" duration="15494000" />
+      <workItem from="1740626657924" duration="16044000" />
+      <workItem from="1740730217606" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加基本项目结构和功能方法">
       <option name="closed" value="true" />
@@ -319,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740642021969</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能">
+      <option name="closed" value="true" />
+      <created>1740645541963</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740645541963</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +364,8 @@
     <MESSAGE value="refactor(entity): 重构实体类并添加新功能&#10;&#10;- 将 com.test.entity 包重命名为 com.entity&#10;- 更新了多个实体类和接口的包名&#10;- 在 TestFuncTest 类中添加了新的测试方法&#10;- 新增了 JieXian 类用于泛型界限测试&#10;- 优化了 Main 类中的测试调用" />
     <MESSAGE value="refactor(entity): 修正接口名首字母大写&#10;&#10;- 将" />
     <MESSAGE value="refactor(entity): 修正接口名称&#10;&#10;- 将接口名 study改为 Study，以符合 Java接口命名规范&#10;- 接口名 Play 保持不变，因未提及修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(entity): 修正接口名称&#10;&#10;- 将接口名 study改为 Study，以符合 Java接口命名规范&#10;- 接口名 Play 保持不变，因未提及修改" />
+    <MESSAGE value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
