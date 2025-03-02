@@ -81,7 +81,7 @@ public class Main {
     }
 
     public static void save() {
-        try (ObjectOutputStream stream = new ObjectOutputStream(new FileOutputStream(".\\src\\com\\book\\bookData.log"))) {
+        try (ObjectOutputStream stream = new ObjectOutputStream(Files.newOutputStream(Paths.get(".\\src\\com\\book\\bookData.log")))) {
             stream.writeObject(bookList);
         } catch (IOException e) {
             throw new RuntimeException(e);
