@@ -1,13 +1,14 @@
 package com.test;
 import com.entity.TestFuncTest;
 import com.test.TsFunc;
+import com.fileio.FileStream;
 
 
 public class Main {
     public static void main(String[] args) throws Exception {
 
         // 输出欢迎信息
-        System.out.println("Hello world!\n");
+        System.out.println("Hello world!\n\n");
 
         // 下面注释方法都写在TestFuncTest类中，调用时需要在Main类中调用
         // 调用personTest1()方法
@@ -55,9 +56,11 @@ public class Main {
         // TestFuncTest.testGenericFunc();
         // TestFuncTest.testCompareO();
         // TsFunc.testArrayListClass();
-        TsFunc.testLinkedListClass();
+        // TsFunc.testLinkedListClass();
+        // TsFunc.testArrayListC();
+        FileStream.testFileIOTest5();
 
-        System.out.println("\nGoodbye world!");
+        System.out.println("\n\nGoodbye world!");
     }
 
 }

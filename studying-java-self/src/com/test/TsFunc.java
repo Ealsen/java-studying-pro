@@ -1,12 +1,16 @@
 package com.test;
 import com.entity.*;
-import com.collection.*;
+// import com.collection.*;
+import java.util.*;
+import com.fileio.*;
+
 
 public class TsFunc {
     public static void testArrayListClass() {
         ArrayList<String> list = new ArrayList<String>();
         for (int i = 0; i < 19; i++) {
-            list.add("Hello" + i, i);
+            // list.add("Hello" + i, i);
+            list.add("Hello" + i);
         }
         System.out.println(list.toString());
         for (int i =0 ; i < 5; i++) {
@@ -24,4 +28,15 @@ public class TsFunc {
         list.remove(1);
         System.out.println(list);
     }
+
+    public static void testArrayListC() {
+        ArrayList<String> list = new ArrayList<String>();
+        for (int i = 0; i < 19; i++) {
+            // list.add("Hello" + i, i);
+            list.add("Hello" + i);
+        }
+        System.out.println(list.toString());
+    }
+
+
 }

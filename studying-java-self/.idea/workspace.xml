@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="">
+    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/collection/ReadText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collection/ReadText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/TsFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/TsFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,36 +58,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/myDocumentDirections/codeDirections/java-studying-pro&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/myDocumentDirections/codeDirections/java-studying-pro",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Main.executor": "Run"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
@@ -154,7 +159,10 @@
       <workItem from="1740377022251" duration="15416000" />
       <workItem from="1740570856877" duration="11000" />
       <workItem from="1740626657924" duration="16044000" />
-      <workItem from="1740730217606" duration="24000" />
+      <workItem from="1740730217606" duration="837000" />
+      <workItem from="1740731071354" duration="4381000" />
+      <workItem from="1740800083449" duration="1763000" />
+      <workItem from="1740802017189" duration="7476000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加基本项目结构和功能方法">
       <option name="closed" value="true" />
@@ -324,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740645541963</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能">
+      <option name="closed" value="true" />
+      <created>1740730527100</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740730527100</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

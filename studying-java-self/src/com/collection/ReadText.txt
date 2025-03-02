@@ -8,3 +8,8 @@ https://www.bilibili.com/video/BV1YP4y1o75f?t=20.1&p=84
 
 中级 集合类
 https://www.bilibili.com/video/BV1YP4y1o75f?t=34.9&p=93
+
+笔记：
+https://www.itbaima.cn/document/hnkrjrkm3hjzeq6s?segment=2#doc5-%E7%BA%BF%E6%80%A7%E8%A1%A8%EF%BC%9A%E6%A0%88
+
+中级部分 没有敲代码
