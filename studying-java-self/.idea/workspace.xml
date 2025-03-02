@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能">
+    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能&#10;- 添加 FileStream 类，实现文件读写功能&#10;- 更新笔记文档，添加中级集合类学习资源">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/collection/ReadText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collection/ReadText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/TsFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/TsFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +158,7 @@
       <workItem from="1740730217606" duration="837000" />
       <workItem from="1740731071354" duration="4381000" />
       <workItem from="1740800083449" duration="1763000" />
-      <workItem from="1740802017189" duration="7476000" />
+      <workItem from="1740802017189" duration="9717000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加基本项目结构和功能方法">
       <option name="closed" value="true" />
@@ -340,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740730527100</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能&#10;- 添加 FileStream 类，实现文件读写功能&#10;- 更新笔记文档，添加中级集合类学习资源">
+      <option name="closed" value="true" />
+      <created>1740883175573</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740883175573</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +385,8 @@
     <MESSAGE value="refactor(entity): 修正接口名首字母大写&#10;&#10;- 将" />
     <MESSAGE value="refactor(entity): 修正接口名称&#10;&#10;- 将接口名 study改为 Study，以符合 Java接口命名规范&#10;- 接口名 Play 保持不变，因未提及修改" />
     <MESSAGE value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能" />
+    <MESSAGE value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能&#10;- 添加 FileStream 类，实现文件读写功能&#10;- 更新笔记文档，添加中级集合类学习资源" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能&#10;- 添加 FileStream 类，实现文件读写功能&#10;- 更新笔记文档，添加中级集合类学习资源" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
