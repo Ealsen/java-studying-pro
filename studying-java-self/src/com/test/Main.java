@@ -2,6 +2,7 @@ package com.test;
 import com.entity.TestFuncTest;
 import com.test.TsFunc;
 import com.fileio.FileStream;
+import com.thread.*;
 
 
 public class Main {
@@ -58,7 +59,8 @@ public class Main {
         // TsFunc.testArrayListClass();
         // TsFunc.testLinkedListClass();
         // TsFunc.testArrayListC();
-        FileStream.testFileIOTest5();
+        // FileStream.testFileIOTest5();
+        ThreadTest.threadTest1();
 
         System.out.println("\n\nGoodbye world!");
     }
