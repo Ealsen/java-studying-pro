@@ -11,4 +11,15 @@ public class ThreadTest {
         t1.start();
         System.out.println("Main!");
     }
+    public static void threadTest2() {
+        Thread t2 = new Thread(()->{
+            System.out.println("t2!");
+        });
+        t2.start();
+        System.out.println("Main!");
+    }
 }
+/*
+线程
+https://www.itbaima.cn/document/lfqtvxr7azumcwja
+ */

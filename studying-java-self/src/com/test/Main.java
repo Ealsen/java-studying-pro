@@ -60,7 +60,8 @@ public class Main {
         // TsFunc.testLinkedListClass();
         // TsFunc.testArrayListC();
         // FileStream.testFileIOTest5();
-        ThreadTest.threadTest1();
+        // ThreadTest.threadTest1();
+        ThreadTest.threadTest2();
 
         System.out.println("\n\nGoodbye world!");
     }

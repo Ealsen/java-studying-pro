@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能&#10;- 添加 FileStream 类，实现文件读写功能&#10;- 更新笔记文档，添加中级集合类学习资源">
+    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat(thread): 添加线程测试功能&#10;&#10;- 在 Main 类中引入 ThreadTest 类并调用 threadTest1 方法&#10;- 新增 ThreadTest 类，实现简单的线程测试&#10;- 添加 Book 类，用于后续的序列化测试">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/studying-java-self/com/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thread/ThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +65,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/myDocumentDirections/codeDirections/java-studying-pro&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/myDocumentDirections/codeDirections/java-studying-pro/studying-java-self&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -110,11 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -159,6 +158,10 @@
       <workItem from="1740731071354" duration="4381000" />
       <workItem from="1740800083449" duration="1763000" />
       <workItem from="1740802017189" duration="9717000" />
+      <workItem from="1740898249783" duration="1055000" />
+      <workItem from="1740989542700" duration="864000" />
+      <workItem from="1741075158985" duration="654000" />
+      <workItem from="1741158546642" duration="883000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加基本项目结构和功能方法">
       <option name="closed" value="true" />
@@ -344,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740883175573</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat(thread): 添加线程测试功能&#10;&#10;- 在 Main 类中引入 ThreadTest 类并调用 threadTest1 方法&#10;- 新增 ThreadTest 类，实现简单的线程测试&#10;- 添加 Book 类，用于后续的序列化测试">
+      <option name="closed" value="true" />
+      <created>1740898453355</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740898453355</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +397,8 @@
     <MESSAGE value="refactor(entity): 修正接口名称&#10;&#10;- 将接口名 study改为 Study，以符合 Java接口命名规范&#10;- 接口名 Play 保持不变，因未提及修改" />
     <MESSAGE value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能" />
     <MESSAGE value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能&#10;- 添加 FileStream 类，实现文件读写功能&#10;- 更新笔记文档，添加中级集合类学习资源" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能&#10;- 添加 FileStream 类，实现文件读写功能&#10;- 更新笔记文档，添加中级集合类学习资源" />
+    <MESSAGE value="feat(thread): 添加线程测试功能&#10;&#10;- 在 Main 类中引入 ThreadTest 类并调用 threadTest1 方法&#10;- 新增 ThreadTest 类，实现简单的线程测试&#10;- 添加 Book 类，用于后续的序列化测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(thread): 添加线程测试功能&#10;&#10;- 在 Main 类中引入 ThreadTest 类并调用 threadTest1 方法&#10;- 新增 ThreadTest 类，实现简单的线程测试&#10;- 添加 Book 类，用于后续的序列化测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
