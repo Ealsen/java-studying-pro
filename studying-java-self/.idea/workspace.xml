@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="feat(thread): 添加线程测试功能&#10;&#10;- 在 Main 类中引入 ThreadTest 类并调用 threadTest1">
+    <list default="true" id="a65a9007-04ea-450d-ae8c-170c4048baf2" name="更改" comment="refactor(thread): 更新 ThreadTest 类并添加学习资源链接&#10;&#10;- 在 ThreadTest.java 中添加了反射和注解的学习资源链接&#10;-移除了 Book 类的添加，简化了本次更新的内容&#10;- 更新了工作空间中的任务描述，专注于线程测试功能的添加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thread/ThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,37 +57,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/myDocumentDirections/codeDirections/java-studying-pro/studying-java-self&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/myDocumentDirections/codeDirections/java-studying-pro/first-spbot-std",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Main.executor": "Run"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
@@ -161,7 +160,8 @@
       <workItem from="1740898249783" duration="1055000" />
       <workItem from="1740989542700" duration="864000" />
       <workItem from="1741075158985" duration="654000" />
-      <workItem from="1741158546642" duration="3862000" />
+      <workItem from="1741158546642" duration="4631000" />
+      <workItem from="1741259978268" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加基本项目结构和功能方法">
       <option name="closed" value="true" />
@@ -363,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741162147010</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="refactor(thread): 更新 ThreadTest 类并添加学习资源链接&#10;&#10;- 在 ThreadTest.java 中添加了反射和注解的学习资源链接&#10;-移除了 Book 类的添加，简化了本次更新的内容&#10;- 更新了工作空间中的任务描述，专注于线程测试功能的添加">
+      <option name="closed" value="true" />
+      <created>1741172772202</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1741172772202</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +415,8 @@
     <MESSAGE value="feat(collection): 实现 LinkedList 数据结构&#10;&#10;- 新增 LinkedList 类，包含添加、删除、获取元素等功能- 重构 ArrayList 类，优化扩容和元素移动逻辑&#10;- 更新测试代码，测试 LinkedList 功能&#10;- 添加 FileStream 类，实现文件读写功能&#10;- 更新笔记文档，添加中级集合类学习资源" />
     <MESSAGE value="feat(thread): 添加线程测试功能&#10;&#10;- 在 Main 类中引入 ThreadTest 类并调用 threadTest1 方法&#10;- 新增 ThreadTest 类，实现简单的线程测试&#10;- 添加 Book 类，用于后续的序列化测试" />
     <MESSAGE value="feat(thread): 添加线程测试功能&#10;&#10;- 在 Main 类中引入 ThreadTest 类并调用 threadTest1" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(thread): 添加线程测试功能&#10;&#10;- 在 Main 类中引入 ThreadTest 类并调用 threadTest1" />
+    <MESSAGE value="refactor(thread): 更新 ThreadTest 类并添加学习资源链接&#10;&#10;- 在 ThreadTest.java 中添加了反射和注解的学习资源链接&#10;-移除了 Book 类的添加，简化了本次更新的内容&#10;- 更新了工作空间中的任务描述，专注于线程测试功能的添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(thread): 更新 ThreadTest 类并添加学习资源链接&#10;&#10;- 在 ThreadTest.java 中添加了反射和注解的学习资源链接&#10;-移除了 Book 类的添加，简化了本次更新的内容&#10;- 更新了工作空间中的任务描述，专注于线程测试功能的添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

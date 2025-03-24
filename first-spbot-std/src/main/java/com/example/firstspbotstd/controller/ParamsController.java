@@ -38,7 +38,7 @@ public class ParamsController {
     @RequestMapping(value = "/postTest2", method = RequestMethod.POST)
     public String postTest2(String username, String password){
         System.out.println("username:"+username+"\n"+"password:"+ password);
-        return "POST2";
+        return "POST2\n"+ "username:"+username+"\n"+"password:"+ password;
     }
 
 
@@ -53,6 +53,13 @@ public class ParamsController {
     // http://localhost:8999/params?username=zhangsan&password=123456
     @RequestMapping(value = "/params", method = RequestMethod.POST)
     public String params(User user){
+        System.out.println("username:"+user.getUsername()+"\n"+"password:"+ user.getPassword());
+        return "POST2";
+    }
+
+    // http://localhost:8999/requesname?username=zhangsan&password=123456
+    @RequestMapping(value = "/requesname", method = RequestMethod.POST)
+    public String requesname(@RequestParam User user){  // @RequestParam User user 必须传入参数
         System.out.println("username:"+user.getUsername()+"\n"+"password:"+ user.getPassword());
         return "POST2";
     }
