@@ -1,10 +1,12 @@
+package com.test;
+
 import java.io.*;
 import java.net.*;
 
 public class ServerExample {
 
-    private static final int PORT = 8080; // 定义服务器端口号为常量
-    private static final String LOG_PREFIX = "ServerExample: "; // 日志前缀
+    private static final int PORT = 8081; // 定义服务器端口号为常量
+    private static final String LOG_PREFIX = "com.test.ServerExample: "; // 日志前缀
 
     public static void main(String[] args) {
         // 使用 try-with-resources 自动管理 ServerSocket 资源

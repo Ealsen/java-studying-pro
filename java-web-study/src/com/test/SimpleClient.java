@@ -1,3 +1,5 @@
+package com.test;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,7 +12,7 @@ public class SimpleClient {
     public static void main(String[] args) {
         // 定义服务器地址和端口号
         String serverAddress = "localhost"; // 服务器地址，这里假设服务器运行在同一台机器上
-        int port = 8080; // 服务器端口号
+        int port = 8081; // 服务器端口号
 
         try (Socket socket = new Socket(serverAddress, port);
              Scanner scanner = new Scanner(System.in); // 使用 try-with-resources 自动关闭 Scanner
