@@ -1,0 +1,38 @@
+### IDE ###
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+### Build ###
+target/
+build/
+dist/
+
+### Logs & Temp ###
+*.log
+logs/
+*.tmp
+*.bak
+
+### Local Config ###
+*.properties
+*.yml
+!application*.yml
+
+### Tests ###
+**/test-output/
+**/reports/
+.coverage
