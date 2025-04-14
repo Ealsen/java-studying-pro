@@ -6,6 +6,5 @@ public class Main {
 
         // Student student = new Student(1, "张三", "男", 18);
         // System.out.println(student.toString());
-
     }
 }

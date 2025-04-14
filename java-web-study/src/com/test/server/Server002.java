@@ -1,4 +1,4 @@
-package com.test;
+package com.test.server;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -10,11 +10,10 @@ public class Server002 {
         // http://localhost:8086/
         try(ServerSocket server = new ServerSocket(8086)){
             Socket socket = server.accept();
-            System.out.println("Server is listening on port "+ server.getLocalPort());
+            System.out.println("server is listening on port "+ server.getLocalPort());
             System.out.println("Connected.IP Address is " + socket.getInetAddress().getHostAddress());
             OutputStreamWriter writer = new OutputStreamWriter(socket.getOutputStream());
             String html = """
-            <!DOCTYPE html>
             <html lang="en">
             <head>
                 <title>测试网站</title>

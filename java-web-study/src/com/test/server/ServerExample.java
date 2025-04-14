@@ -1,4 +1,4 @@
-package com.test;
+package com.test.server;
 
 import java.io.*;
 import java.net.*;
@@ -6,12 +6,12 @@ import java.net.*;
 public class ServerExample {
 
     private static final int PORT = 8081; // 定义服务器端口号为常量
-    private static final String LOG_PREFIX = "com.test.ServerExample: "; // 日志前缀
+    private static final String LOG_PREFIX = "com.test.server.ServerExample: "; // 日志前缀
 
     public static void main(String[] args) {
         // 使用 try-with-resources 自动管理 ServerSocket 资源
         try (ServerSocket server = new ServerSocket(PORT)) {
-            System.out.println(LOG_PREFIX + "Server started, waiting for client connection on port " + PORT);
+            System.out.println(LOG_PREFIX + "server started, waiting for client connection on port " + PORT);
 
             // 等待客户端连接
             try (Socket socket = server.accept()) {
@@ -29,7 +29,7 @@ public class ServerExample {
                         System.out.println(LOG_PREFIX + "Message from client: " + message);
 
                         // 向客户端发送确认信息
-                        String response = "Server received your message: " + message;
+                        String response = "server received your message: " + message;
                         writer.println(response); // 发送确认信息
                         System.out.println(LOG_PREFIX + "Sent response to client: " + response);
                     }

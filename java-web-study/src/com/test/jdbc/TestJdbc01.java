@@ -1,4 +1,4 @@
-package com.test;
+package com.test.jdbc;
 
 import java.sql.*;
 // import java.util.UUID;

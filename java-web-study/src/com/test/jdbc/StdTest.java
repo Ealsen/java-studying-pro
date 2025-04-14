@@ -1,4 +1,4 @@
-package com.test;
+package com.test.jdbc;
 
 public class StdTest {
     /*
@@ -12,12 +12,10 @@ public class StdTest {
         this.sid = sid;
         this.name = name;
         this.gender = gender;
-    }
-
+}
     public void sayHello(){
         System.out.println("hello");
     }
-
     // 打印信息
     public void printInfo() {
         System.out.println("StudentID: " + sid +",Name: " + name + ",Gender: " + gender + ".");

@@ -1,4 +1,4 @@
-package com.test;
+package com.test.server;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,7 +9,7 @@ public class Sever001 {
     public static void main(String[] args) {
         // http://localhost:8085/
         try(ServerSocket server = new ServerSocket(8085)) {
-            System.out.println("Server is listening on port "+ server.getLocalPort());
+            System.out.println("server is listening on port "+ server.getLocalPort());
             Socket socket = server.accept();
             System.out.println("Connected.IP Address is " + socket.getInetAddress().getHostAddress());
             InputStream in = socket.getInputStream();

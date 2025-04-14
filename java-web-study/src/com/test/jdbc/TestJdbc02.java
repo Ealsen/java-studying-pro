@@ -1,4 +1,4 @@
-package com.test;
+package com.test.jdbc;
 
 import java.sql.*;
 import java.util.Scanner;
@@ -13,8 +13,12 @@ public class TestJdbc02 {
 
         try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sql_test_db","root","123456");
              PreparedStatement statement = connection.prepareStatement("select * from user_test_01 where username=? and password=?")){
+            System.out.println("连接成功.");
+
         Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入用户名:");
         statement.setString(1,scanner.next());
+        System.out.println("请输入密码:");
         statement.setString(2,scanner.next());
 
        /*

@@ -1,4 +1,4 @@
-package com.test;
+package com.test.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,13 +30,13 @@ public class SimpleClient {
                 // 读取服务器的响应
                 String response = reader.readLine(); // 读取服务器发送的消息
                 if (response != null) {
-                    System.out.println("Server response: " + response);
+                    System.out.println("server response: " + response);
                 } else {
                     System.out.println("Received empty response from server.");
                 }
             }
         } catch (UnknownHostException e) {
-            System.err.println("Server address unknown: " + serverAddress);
+            System.err.println("server address unknown: " + serverAddress);
             e.printStackTrace();
         } catch (IOException e) {
             System.err.println("Failed to connect to server: " + e.getMessage());
