@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.test.TestMapper">
-    <select id="selectAllFstd_info_1" resultType="com.test.mybatis.Student">
+<mapper namespace="com.test.TestStudentMapper">
+    <select id="selectAllFstd_info_1" resultType="student">
         select * from std_info_1
     </select>
-    <select id="selectOneFstd_info_2" resultType="com.test.mybatis.Student">
+    <select id="selectOneFstd_info_2" resultType="student">
         select * from std_info_1 where id = #{id}
     </select>
 </mapper>

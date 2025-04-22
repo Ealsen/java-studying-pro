@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-<!--    <settings>-->
-<!--&lt;!&ndash;        开启日志&ndash;&gt;-->
-<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
-<!--    </settings>-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="cacheEnabled" value="true"/>
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+    </settings>
     <typeAliases>
-        <typeAlias type="com.test.mybatis.Student" alias="student"/>
-        <typeAlias type="com.test.mybatis.StdTest1" alias="stdTest1"/>
+        <package name="com.test.entity"/>
     </typeAliases>
     <environments default="development">
         <environment id="development">
@@ -21,12 +21,8 @@
                 <property name="password" value="123456"/>
             </dataSource>
         </environment>
-
     </environments>
     <mappers>
-        <mapper url="file:src/com/test/mybatis/TestStudentMapper.xml"/>
-        <mapper url="file:src/com/test/mybatis/mapper/TestMapper.xml"/>
-        <mapper class="com.test.mybatis.mapper.MapperZ"/>
-<!--&lt;!&ndash;        <package name="com.test.mybatis.mapper"/>  包扫描&ndash;&gt;  注解的-->
+        <mapper class="com.test.mapper.TestMapper"/>
     </mappers>
 </configuration>
